@@ -16,8 +16,6 @@ mysql צרו דאטה בייס ב בשם media
 ובצעו ייבוא של הקובץ
 media.sql
 
-![הדגמה](site.png)
-
 
 ## אלו הגדרות השרת
 'localhost', 'root', '123456', 'media'
@@ -37,3 +35,6 @@ https://www.omdbapi.com/apikey.aspx
 
 ## לפניות
 Thisel.db1@gmail.com
+
+
+![הדגמה](site.png)
