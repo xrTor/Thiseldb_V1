@@ -18,9 +18,9 @@ media.sql
 
 
 ## אלו הגדרות השרת
- י 'localhost', 'root', '123456', 'media'    
+ י 'localhost', 'root', '', 'media'    
 שם משתמש root    
-123456 סיסמא    
+בלי סיסמא    
 media שם הדאטה בייס    
 
 
