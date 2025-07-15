@@ -1,4 +1,4 @@
-<div dir="rtl">
+<div dir="ltr">
 Thiseldb is a movie and tv seires blog  
 Thiseldb הוא אתר סיקורים של סדרות  וסרטים  
 משוחרר תחת רישיון קוד פתוח  
