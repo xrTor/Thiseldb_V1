@@ -1,7 +1,6 @@
-<div dir="RTL"><b>
-##Thiseldb is a movie and tv seires blog  <br>
-##Thiseldb הוא אתר סיקורים של סדרות  וסרטים  
-</b>
+<div dir="RTL">
+## Thiseldb is a movie and tv seires blog  <br>
+## Thiseldb הוא אתר סיקורים של סדרות  וסרטים  
 משוחרר תחת רישיון קוד פתוח  
 GPL 3
 
