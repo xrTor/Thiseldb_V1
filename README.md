@@ -1,5 +1,5 @@
 <div dir="RTL">
-Thiseldb is a movie and tv seires blog  
+Thiseldb is a movie and tv seires blog  <br>
 Thiseldb הוא אתר סיקורים של סדרות  וסרטים  
 משוחרר תחת רישיון קוד פתוח  
 GPL 3
@@ -34,7 +34,8 @@ https://www.omdbapi.com/apikey.aspx
 *העמוד index מציג מהישן לחדש לעומת עמוד home שמחזיר בצורה תקינה את הראשון קודם  
 
 ## לפניות
-י Thisel.db1@gmail.com  
+י 
+Thisel.db1@gmail.com  
 
 
 ![הדגמה](site.png)  
