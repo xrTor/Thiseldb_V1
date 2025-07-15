@@ -1,4 +1,5 @@
 # Thiseldb_V1
+
 Thiseldb is a movie and tv seires blog
 Thiseldb הוא אתר סיקורים של סדרות  וסרטים
 משוחרר תחת רישיון קוד פתוח
@@ -15,7 +16,7 @@ mysql צרו דאטה בייס ב בשם media
 ובצעו ייבוא של הקובץ
 media.sql
 
-![הדגמה](images\site.png)
+![הדגמה](site.png)
 
 
 ## אלו הגדרות השרת
