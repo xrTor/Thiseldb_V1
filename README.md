@@ -34,7 +34,7 @@ https://www.omdbapi.com/apikey.aspx
 *העמוד index מציג מהישן לחדש לעומת עמוד home שמחזיר בצורה תקינה את הראשון קודם  
 
 ## לפניות
-י  
+
 Thisel.db1@gmail.com  
 
 
