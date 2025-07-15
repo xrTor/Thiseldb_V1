@@ -225,7 +225,7 @@ $conn->close();
     let debounceTimer;
 
     function fetchDetails(imdbId) {
-      fetch(`https://www.omdbapi.com/?i=${imdbId}&apikey=`)
+      fetch(`https://www.omdbapi.com/?i=${imdbId}&apikey=`) // החליפו בKEY שלכם 
         .then(res => res.json())
         .then(data => {
           if (data.Response !== "True") return alert("❌ IMDb לא החזיר תוצאה תקפה");
