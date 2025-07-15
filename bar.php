@@ -1,9 +1,7 @@
 <?php
+ require_once 'server.php';
 session_start();
 include 'header.php';
-
-$conn = new mysqli('localhost', 'root', '123456', 'media');
-if ($conn->connect_error) die("Connection failed: " . $conn->connect_error);
 
 // הגדרות תצוגה ודפדוף
 $allowed_limits = [5, 10, 20, 50, 100, 250];

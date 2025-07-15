@@ -1,8 +1,7 @@
 <?php
 include 'header.php';
-$conn = new mysqli('localhost', 'root', '123456', 'media');
-if ($conn->connect_error) die("Connection failed");
-
+require_once 'server.php';
+ 
 // 🔢 סוגים
 $count_series     = $conn->query("SELECT COUNT(*) AS c FROM posters WHERE type='series'")->fetch_assoc()['c'];
 $count_movies     = $conn->query("SELECT COUNT(*) AS c FROM posters WHERE type='movie'")->fetch_assoc()['c'];

@@ -1,6 +1,5 @@
 <?php
-$conn = new mysqli('localhost', 'root', '123456', 'media');
-if ($conn->connect_error) die("Connection failed");
+require_once 'server.php';
 
 $type      = $_GET['type']      ?? '';
 $year      = $_GET['year']      ?? '';

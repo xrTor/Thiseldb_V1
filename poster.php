@@ -14,9 +14,8 @@ function extractYoutubeId($url) {
   return '';
 }
 
-$conn = new mysqli('localhost', 'root', '123456', 'media');
-if ($conn->connect_error) die("Connection failed");
-
+require_once 'server.php';
+ 
 $id = isset($_GET['id']) ? intval($_GET['id']) : 0;
 $result = $conn->query("SELECT * FROM posters WHERE id = $id");
 if ($result->num_rows == 0) { echo "<p style='text-align:center;'>❌ פוסטר לא נמצא</p>"; exit; }

@@ -1,9 +1,8 @@
 <?php include 'header.php'; ?>
 
 <?php
-$conn = new mysqli('localhost', 'root', '123456', 'media');
-if ($conn->connect_error) die("Connection failed: " . $conn->connect_error);
-
+require_once 'server.php';
+ 
 // טיפול בבקשת מחיקה
 if (isset($_GET['delete'])) {
   $del_id = intval($_GET['delete']);

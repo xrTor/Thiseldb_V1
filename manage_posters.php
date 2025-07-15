@@ -1,8 +1,7 @@
 <?php
 include 'header.php';
-$conn = new mysqli('localhost','root','123456','media');
-if ($conn->connect_error) die("Connection failed: " . $conn->connect_error);
-
+ require_once 'server.php';
+ 
 $search = isset($_GET['search']) ? $conn->real_escape_string($_GET['search']) : '';
 
 // שולפים פוסטרים עם שם ו־imdb_id קיימים, עם חיפוש אם נשלח

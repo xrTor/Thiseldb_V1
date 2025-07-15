@@ -1,9 +1,7 @@
 <?php
 include 'header.php';
-
-$conn = new mysqli('localhost', 'root', '123456', 'media');
-if ($conn->connect_error) die("Connection failed");
-
+ require_once 'server.php';
+ 
 $message = '';
 
 // מחיקת אוסף

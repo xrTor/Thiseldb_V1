@@ -1,16 +1,7 @@
+<?php require_once 'server.php';?>
 <?php include 'header.php'; ?>
 
 <?php
-$host = 'localhost';
-$db   = 'media';
-$user = 'root';
-$pass = '123456';
-
-$conn = new mysqli($host, $user, $pass, $db);
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
-
 // ⬇️ כאן בדיוק!
 $page = isset($_GET['page']) ? max(1, intval($_GET['page'])) : 1;
 $limit = 20;

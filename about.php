@@ -1,3 +1,4 @@
+<?php require_once 'server.php';?>
 <?php include 'header.php'; ?>
 
 
