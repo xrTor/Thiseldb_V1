@@ -1,5 +1,5 @@
-<div dir="ltr">
-Thiseldb is a movie and tv seires blog  
+<div dir="RTL">
+Thiseldb is a movie and tv seires blog  <br>
 Thiseldb הוא אתר סיקורים של סדרות  וסרטים  
 משוחרר תחת רישיון קוד פתוח  
 GPL 3
@@ -11,13 +11,14 @@ http://localhost/thiseldb
 תיקית האחסון של האתר  
 C:\xampp\htdocs
 
+## התקנה
 mysql צרו דאטה בייס ב בשם media  
 ובצעו ייבוא של הקובץ    
 media.sql  
 
 
 ## אלו הגדרות השרת
-'localhost', 'root', '123456', 'media'    
+ י 'localhost', 'root', '123456', 'media'    
 שם משתמש root    
 123456 סיסמא    
 media שם הדאטה בייס    
